@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité – Patrouille forêt</title>
+<style>
+  :root {
+    --bg: #f6f8f5;
+    --card: #ffffff;
+    --text: #1f2a24;
+    --muted: #5b6b62;
+    --accent: #1b6b3a;
+    --border: #dbe3dd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #121a15;
+      --card: #1a241e;
+      --text: #e6eee9;
+      --muted: #9fb2a7;
+      --accent: #5fc98a;
+      --border: #2b3a31;
+    }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px 22px; margin-bottom: 16px; }
+  h1 { color: var(--accent); font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { color: var(--accent); font-size: 1.15rem; margin: 0 0 8px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 20px; }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>Politique de confidentialité</h1>
+    <p><strong>Application : Patrouille forêt</strong> (identifiant : cm.patrouille.foret)</p>
+    <p class="muted">Développeur : Takoumbo Brice · Dernière mise à jour : 2 novembre 2026</p>
+  </div>
+
+  <div class="card">
+    <h2>1. Présentation</h2>
+    <p>Patrouille forêt est une application Android qui permet d'enregistrer des patrouilles en forêt : trace GPS, observations, photos et contrôles aux postes de surveillance. Cette page explique quelles données l'application utilise et comment elles sont traitées.</p>
+  </div>
+
+  <div class="card">
+    <h2>2. Données utilisées</h2>
+    <ul>
+      <li><strong>Position GPS</strong> : utilisée pour enregistrer le tracé de la patrouille et localiser les observations. Le suivi continue en arrière-plan pendant une patrouille, avec une notification visible.</li>
+      <li><strong>Appareil photo et photos</strong> : utilisés uniquement pour joindre des photos aux observations.</li>
+      <li><strong>Observations et rapports</strong> : textes, catégories et contrôles (personnes, voitures, motos, nature du produit, provenance, destination) saisis par l'utilisateur.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>3. Stockage des données</h2>
+    <p>Toutes ces données sont stockées <strong>uniquement sur le téléphone</strong> de l'utilisateur. Le développeur n'y a pas accès, et l'application n'envoie ces données vers aucun serveur.</p>
+    <p>Les exports (GPX, CSV, GeoJSON, JSON, Shapefile, rapport) sont créés à la demande de l'utilisateur, qui décide seul de les partager ou non.</p>
+  </div>
+
+  <div class="card">
+    <h2>4. Connexion internet et fonds de carte</h2>
+    <p>L'application utilise internet uniquement pour afficher les fonds de carte (OpenStreetMap et imagerie satellite Esri/ArcGIS). Pour charger les cartes, les serveurs de ces services reçoivent les coordonnées des tuiles de carte demandées et l'adresse IP du téléphone, comme pour tout site web. Ces services ont leurs propres politiques de confidentialité.</p>
+    <p>Le lien « WhatsApp » de l'application ouvre simplement WhatsApp pour contacter le développeur, à l'initiative de l'utilisateur.</p>
+  </div>
+
+  <div class="card">
+    <h2>5. Autorisations demandées</h2>
+    <ul>
+      <li><strong>Localisation (précise et approximative)</strong> et service de localisation au premier plan : suivi de la patrouille.</li>
+      <li><strong>Appareil photo</strong> : photos d'observations.</li>
+      <li><strong>Notifications</strong> : afficher la notification de patrouille en cours.</li>
+      <li><strong>Internet</strong> : chargement des fonds de carte.</li>
+      <li><strong>Maintien de l'appareil actif et démarrage</strong> : éviter que le suivi GPS ne s'interrompe pendant une patrouille.</li>
+    </ul>
+    <p>L'utilisateur peut retirer ces autorisations à tout moment dans les réglages d'Android.</p>
+  </div>
+
+  <div class="card">
+    <h2>6. Partage avec des tiers</h2>
+    <p>Aucune donnée personnelle n'est vendue, partagée ou transmise à des tiers par l'application. L'application ne contient ni publicité ni outil de suivi statistique.</p>
+  </div>
+
+  <div class="card">
+    <h2>7. Suppression des données</h2>
+    <p>Les données sont supprimées en vidant les données de l'application ou en la désinstallant (Réglages Android → Applications → Patrouille forêt).</p>
+  </div>
+
+  <div class="card">
+    <h2>8. Enfants</h2>
+    <p>L'application est destinée à un usage professionnel et ne s'adresse pas aux enfants.</p>
+  </div>
+
+  <div class="card">
+    <h2>9. Modifications</h2>
+    <p>Cette politique peut être mise à jour. La date de dernière mise à jour est indiquée en haut de la page.</p>
+  </div>
+
+  <div class="card">
+    <h2>10. Contact</h2>
+    <p>Pour toute question : <a href="mailto:bricetakoumbo285@gmail.com">bricetakoumbo285@gmail.com</a></p>
+  </div>
+</main>
+</body>
+</html>
